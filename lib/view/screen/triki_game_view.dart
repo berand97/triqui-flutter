@@ -41,7 +41,7 @@ class _TrikiGameViewState extends State<TrikiGameView> {
     final gameState = _controller.getGameState();
 
     return Scaffold(
-        backgroundColor: const Color(0xFFD0BCFF),
+        //backgroundColor: const Color(0xFFD0BCFF),
         body: GameBoard(context, gameState, _controller, setState));
   }
 }
